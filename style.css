@@ -8,44 +8,7 @@ font-family: 'Crushed', cursive; under main title
 font-family: 'EB Garamond', serif; 
 font-family: 'Yeseva One', cursive;   Main title font
 */
-@media (max-width: 576px) {
-    #top {
-        width: 100vw !important;
-        height: 30vh !important;
-    }
 
-    #top-label {
-        font-size: 2vh !important;
-    }
-
-    ul {
-        line-height: 5vh !important;
-    }
-
-    .certificate {
-        width: 80vw !important;
-        height: 40vh !important;
-
-    }
-
-    a {
-        font-size: 3vw !important;
-
-    }
-
-    svg {
-        width: 40vw !important;
-    }
-
-    #apm,
-    #copyright {
-        top: 40vh !important;
-    }
-
-    #privacy {
-        top: 29vh !important;
-    }
-}
 
 body {
     width: 100vw;
@@ -242,4 +205,73 @@ a:hover {
 #privacy {
     position: relative;
     top: 50vh;
+}
+.center{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.list{
+    color: white;
+    font-family: 'Crushed', cursive;
+    text-align: center;
+    font-size: 3vw;
+    margin-top: 5vw;
+}
+.order{
+    background-color: white;
+    color: #8d859f;
+    padding: 0%;
+    border-radius: 1rem;
+}
+
+
+@media (max-width: 576px) {
+    #top {
+        width: 100vw !important;
+        height: 30vh !important;
+    }
+
+    #top-label {
+        font-size: 2vh !important;
+    }
+
+    ul {
+        line-height: 5vh !important;
+    }
+
+    .certificate {
+        width: 80vw !important;
+        height: 40vh !important;
+
+    }
+
+    a {
+        font-size: 3vw !important;
+
+    }
+
+    svg {
+        width: 40vw !important;
+    }
+
+    #apm,
+    #copyright {
+        top: 40vh !important;
+    }
+
+    #privacy {
+        top: 29vh !important;
+    }
+    .leaf{
+        width: 100vw;
+        height:40vh;
+    }
+    .center{
+        display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+    }
 }
